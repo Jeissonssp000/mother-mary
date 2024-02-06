@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react"
-import { deleteSinger, fetchSingers } from "../../src/utils/database";
+import { deleteSinger, fetchSingers } from "../utils/database";
 import NewSinger from "./Components/NewSinger"
 import Table from "./Components/Table"
 import Search from "./Components/Search";

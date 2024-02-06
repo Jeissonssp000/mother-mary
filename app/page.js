@@ -1,10 +1,10 @@
-import Footer from "@/src/components/Footer";
-import Header from "@/src/components/Header";
-import Activity from "@/src/screens/Activity";
-import Company from "@/src/screens/Company";
-import Drops from "@/src/screens/Drops";
-import Home from "@/src/screens/Home";
-import Marketplace from "@/src/screens/Marketplace";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Activity from "./screens/Activity";
+import Company from "./screens/Company";
+import Drops from "./screens/Drops";
+import Home from "./screens/Home";
+import Marketplace from "./screens/Marketplace";
 
 export default function App() {
   return (

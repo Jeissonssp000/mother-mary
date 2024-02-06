@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react"
-import { fetchSingerById } from "../../../src/utils/database";
+import { fetchSingerById } from "../../utils/database";
 
 export default function Search({ setter }) {
   const [search, setSearch] = useState("");

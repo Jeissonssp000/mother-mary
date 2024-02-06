@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react"
-import { createSinger, updateSinger } from "../../../src/utils/database";
+import { createSinger, updateSinger } from "../../utils/database";
 
 export default function NewSinger({ reset, selected, setSelected }) {
   const [formData, setFormData] = useState({ name: '', age: '', genre: '' });

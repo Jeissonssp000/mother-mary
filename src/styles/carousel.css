@@ -13,7 +13,7 @@
   font-size: clamp(16px, 3vw, 41px);
   font-weight: 400;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(var(--color-primary));
+  -webkit-text-stroke-color: black;
   color: transparent;
 }
 

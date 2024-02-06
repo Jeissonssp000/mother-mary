@@ -126,7 +126,7 @@ button.secondary {
 
 button.third {
   color: var(--color-yellow);
-  background: rgb(var(--color-primary));
+  background: black;
 }
 
 .center {

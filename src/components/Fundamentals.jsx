@@ -8,7 +8,7 @@ export default function Fundamentals() {
         <div className="container flex center flex-col relative">
           <span>{number(k + 1)}</span>
           <h5>{item}</h5>
-          <div class="star"></div>
+          <div className="star"></div>
         </div>
       )}
     </div>

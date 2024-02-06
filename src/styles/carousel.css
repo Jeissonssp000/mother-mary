@@ -1,0 +1,65 @@
+.tag-list {
+  width: 100%;
+  flex-shrink: 0;
+  gap: 1rem 0;
+  padding: 1.5rem 0;
+  overflow: hidden;
+  background: var(--color-yellow);
+}
+
+.tag-list span {
+  font-size: 3rem;
+  width: max-content;
+  font-size: clamp(16px, 3vw, 41px);
+  font-weight: 400;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(var(--color-primary));
+  color: transparent;
+}
+
+.loop-slider {
+  .inner {
+    display: flex;
+    width: fit-content;
+    animation-name: loop;
+    gap: 30px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: var(--direction);
+    animation-duration: var(--duration);
+  }
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  background-color: #334155;
+  border-radius: 0.4rem;
+  padding: 0.7rem 1rem;
+  margin-right: 1rem;
+  box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 20%), 0 0.1rem 0.5rem rgb(0 0 0 / 30%), 0 0.2rem 1.5rem rgb(0 0 0 / 40%);
+}
+
+.fade {
+  pointer-events: none;
+  background: linear-gradient(90deg,
+      rgb(var(--color-primary)),
+      transparent 30%,
+      transparent 70%,
+      rgb(var(--color-primary)));
+  position: absolute;
+  inset: 0;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
